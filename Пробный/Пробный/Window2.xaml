@@ -1,0 +1,55 @@
+﻿<Window x:Class="Пробный.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Пробный"
+        mc:Ignorable="d"
+        Title="Window2" ResizeMode="NoResize" Height="450" Width="400">
+    <Grid HorizontalAlignment="Left" Width="390" Background="#FF628E95">
+        <Rectangle Fill="#FFABABAE" HorizontalAlignment="Left" Height="22" Margin="0,288,0,0" VerticalAlignment="Top" Width="390"/>
+        <Rectangle Fill="#FFABABAE" HorizontalAlignment="Left" Height="22" Margin="0,185,0,0" VerticalAlignment="Top" Width="390"/>
+        <Rectangle Fill="#FFABABAE" HorizontalAlignment="Left" Height="22" Margin="0,49,0,0" VerticalAlignment="Top" Width="390"/>
+        <RadioButton x:Name="t1" Content="Спорткар 1" HorizontalAlignment="Left" Margin="42,85,0,0" VerticalAlignment="Top" Width="119" FontFamily="Dubai Medium" Height="22" GroupName="Cars"/>
+        <Label Content="НАСТРОЙКИ" HorizontalAlignment="Left" Margin="130,10,0,0" VerticalAlignment="Top" Width="123" FontSize="16" FontFamily="Yu Gothic UI Semibold" Height="39" FontWeight="Bold"/>
+        <RadioButton x:Name="t2" Content="Спорткар 2" HorizontalAlignment="Left" Margin="42,118,0,0" VerticalAlignment="Top" Width="119" FontFamily="Dubai Medium" GroupName="Cars"/>
+        <RadioButton x:Name="t3" Content="Джип" HorizontalAlignment="Left" Margin="42,150,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" Width="133" GroupName="Cars"/>
+        <Label Content="Машины" HorizontalAlignment="Left" Margin="42,44,0,0" VerticalAlignment="Top" Width="100" FontSize="14" FontFamily="Dubai Medium"/>
+        <RadioButton Content="Городская" HorizontalAlignment="Left" Margin="229,218,0,0" VerticalAlignment="Top" Width="108" FontFamily="Dubai Medium"/>
+        <RadioButton Content="Просёлочная" HorizontalAlignment="Left" Margin="42,218,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" RenderTransformOrigin="0.47,-0.596"/>
+        <Label Content="Музыка" HorizontalAlignment="Left" Margin="42,282,0,0" VerticalAlignment="Top" Width="72" FontFamily="Dubai Medium" FontSize="14"/>
+        <Image Margin="168,64,192,297" Source="maincar2.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.393"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="228,92,129,270" Source="maincar3.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.498"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label Content="Дороги" HorizontalAlignment="Left" Margin="42,179,0,0" VerticalAlignment="Top" Width="101" FontFamily="Dubai Medium" FontSize="14"/>
+        <Image Margin="293,120,60,236" Source="maincar4.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.689"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="78,241,276,145" Source="fon2.jpg" Stretch="Fill"/>
+        <Image Margin="258,241,98,145" Source="fon.jpg" Stretch="Fill"/>
+    </Grid>
+</Window>
